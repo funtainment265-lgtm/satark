@@ -13,7 +13,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 object Supa {
-    const val URL = "https://gonrjldecsobmytypxsn.supabase.co/rest/v1/"          // jaise 
+    const val URL = "https://gonrjldecsobmytypxsn.supabase.co"          // jaise 
     const val KEY = "sb_publishable_EX9oAZtR9xEL0orMiflqTA_wA1AIsRo"     // anon public key
     private val http = OkHttpClient()
     private val JT = "application/json".toMediaType()
